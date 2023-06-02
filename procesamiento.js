@@ -36,8 +36,7 @@ const read = () => {
   if (data === "[]") {
     console.log("data is empty");
   } else {
-    let citas = JSON.parse(data);
-    console.log(citas)
+    console.log(data);
   }
 };
 
